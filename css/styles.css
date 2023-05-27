@@ -1,0 +1,167 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav {}
+
+.nav-logo{
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    color: #4D5AE5;
+    text-decoration: none;
+}
+
+.nav-logo2 {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    color: #2E2F42;
+    text-decoration: none;
+}
+
+
+
+.nav-ulist {}
+
+.nav.nav-link:active{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: #404BBF;
+        text-decoration: none;
+}
+
+
+.nav .nav-list {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    text-decoration: none;
+}
+
+.nav-link {}
+
+.header-address {}
+
+.address-ulist {}
+
+.address-list {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.address-link {}
+
+.section-1-h1 {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.button1 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+.section-2-ulist {}
+
+.section-2-list {}
+
+.section-2-header2 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.section-2-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.section-3-header2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
+.section-3-ulist {}
+
+.section-3-list {}
+
+.section-4-ulist {}
+
+.section-4-list {}
+
+.section-4-header3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.section-4-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+
+    color: #434455;
+}
+
+.footer-txt {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+}
+
+.button2 {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+}
+
+.button {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.04em;
+        color: #4D5AE5;
+}
+
+.foto-description {}
+
+.paragraf-images {}
+
+.p-images {}
