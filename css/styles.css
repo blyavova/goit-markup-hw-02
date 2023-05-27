@@ -1,10 +1,15 @@
-body:root {
+.body{
     font-family: "Roboto", sans-serif;
+}
+
+body:root {
     color: #434455;
     background-color: #FFFFFF;
 }
 
-
+:root{
+    text-decoration: none;
+}
 
 .head-bg{
     background-color:#FFFFFF;
@@ -113,21 +118,46 @@ body:root {
 }
 
 .section-1-h1 {
-    font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
+    font-weight: 700;
+    line-height: 1.07;
     letter-spacing: 0.02em;
+    text-align: center;
     color: #FFFFFF;
 }
 
 .button1 {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.04em;
+    cursor: pointer;
     color: #FFFFFF;
 
     background-color: #4D5AE5;  
+}
+
+.button1:hover{
+    background-color: #404BBF;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.button1:focus{
+    background-color: #404BBF;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    color: #FFFFFF;
 }
 
 .section-2-ulist {
@@ -141,26 +171,29 @@ body:root {
 .section-2-header2 {
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
 
 .section-2-text {
     font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 36px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    
 }
+
 
 .section-3-header2 {
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2E2F42;
+    text-align: center
 }
 
 .section-3-ulist {
@@ -171,22 +204,22 @@ body:root {
     text-decoration: none;
 }
 
-.our-team-bg{
-    background: #F4F4FD;
+.section-4-bg {
+    background-color: #F4F4FD
 }
 
+
 .section-4-ulist {
-    text-decoration: none;
+    background-color: #FFFFFF
 }
 
 .section-4-list {
-    text-decoration: none;
+    background-color: #FFFFFF
 }
 
 .section-4-header3 {
-    font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
@@ -194,7 +227,7 @@ body:root {
 .section-4-text {
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 
     color: #434455;
@@ -203,7 +236,7 @@ body:root {
 .footer-txt {
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
 }
