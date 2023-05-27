@@ -2,7 +2,13 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.nav {}
+.head-bg{
+    background-color:#FFFFFF;
+}
+
+.nav {
+    text-decoration: none;
+}
 
 .nav-logo{
     font-family: 'Raleway';
@@ -26,43 +32,73 @@ body {
 
 
 
-.nav-ulist {}
+.nav-ulist {
+    text-decoration: none;
+}
 
-.nav.nav-link:active{
-        font-style: normal;
+
+
+.nav-link{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
+
+
+.nav-link:hover{
         font-weight: 500;
         font-size: 16px;
         line-height: 24px;
         letter-spacing: 0.02em;
         color: #404BBF;
-        text-decoration: none;
 }
 
-
-.nav .nav-list {
+.nav-link:focus{
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: #404BBF;
+}
+
+.header-address {
     text-decoration: none;
 }
 
-.nav-link {}
+.address-ulist {
+    text-decoration: none;
+}
 
-.header-address {}
+.address-link{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
 
-.address-ulist {}
-
-.address-list {
+.address-link:focus{
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: #404BBF;
 }
 
-.address-link {}
+.address-link:hover{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #404BBF;
+}
+
+
+.hero-bg{
+    background-color: #2E2F42;
+}
 
 .section-1-h1 {
     font-weight: 700;
@@ -78,11 +114,17 @@ body {
     line-height: 24px;
     letter-spacing: 0.04em;
     color: #FFFFFF;
+
+    background-color: #4D5AE5;  
 }
 
-.section-2-ulist {}
+.section-2-ulist {
+    text-decoration: none;
+}
 
-.section-2-list {}
+.section-2-list {
+    text-decoration: none;
+}
 
 .section-2-header2 {
     font-weight: 500;
@@ -109,13 +151,25 @@ body {
     color: #2E2F42;
 }
 
-.section-3-ulist {}
+.section-3-ulist {
+    text-decoration: none;
+}
 
-.section-3-list {}
+.section-3-list {
+    text-decoration: none;
+}
 
-.section-4-ulist {}
+.our-team-bg{
+    background: #F4F4FD;
+}
 
-.section-4-list {}
+.section-4-ulist {
+    text-decoration: none;
+}
+
+.section-4-list {
+    text-decoration: none;
+}
 
 .section-4-header3 {
     font-weight: 500;
@@ -143,16 +197,15 @@ body {
 }
 
 .button2 {
-        font-style: normal;
         font-weight: 500;
         font-size: 16px;
         line-height: 24px;
         letter-spacing: 0.04em;
         color: #FFFFFF;
+        background-color: #404BBF;
 }
 
 .button {
-        font-style: normal;
         font-weight: 500;
         font-size: 16px;
         line-height: 24px;
@@ -160,8 +213,25 @@ body {
         color: #4D5AE5;
 }
 
-.foto-description {}
+.foto-description {
+    text-decoration: none;
+}
 
-.paragraf-images {}
+.paragraf-images {
+    text-decoration: none;
+}
 
-.p-images {}
+.p-images {
+    text-decoration: none;
+}
+
+.footer-logo{
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 21px;
+        letter-spacing: 0.03em;
+        color: #F4F4FD;
+}
+.footer-bg{
+    background-color: #2E2F42;
+}
